@@ -1,3 +1,8 @@
+
+How to run it:
+In your terminal of choice, just run ```python3 rover.py``` inside the project folder. If you want to run the tests, run ```python3 -m unittest tests.py``` inside the project folder.
+
+
 ## Mars Rover
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
@@ -61,3 +66,4 @@ See `input.txt` in this repo for a sample test input.
 - Be prepared to give a brief overview on your design decisions.
 
 - **Don't hesitate to ask us for clarifications**
+ 
