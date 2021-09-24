@@ -1,5 +1,6 @@
 directions = {"N":1, "E": 2, "S": 3, "W": 4}                   
 directions_list=['N','E','S','W']
+
 def turn_left(x: int, y: int, direction: int) -> tuple:
     """
     Turns the Rover to the left
@@ -74,8 +75,6 @@ def define_plateau(user_input: str) -> list:
     
     return list(map(int, plateau_coords))
 
-movements = {"R": turn_right, "L": turn_left, "M": move}
-
 def exec(landing: str, instructions: "str"):
     """
     Executes the Rover commands based on the landing parameters and instructions
@@ -107,6 +106,6 @@ def main():
     except Exception as ex:
         print(ex)
     
-
+movements = {"R": turn_right, "L": turn_left, "M": move}
 if __name__ == '__main__':
     main()
